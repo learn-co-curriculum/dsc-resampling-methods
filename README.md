@@ -34,8 +34,3 @@ For example, let's say we had two samples, one with 37 observations and the othe
 ## Summary
 
 In this lesson, we continued discussing non-parametric statistics and investigated resampling techniques. This included bootstrapping, jackknife  and permutation tests. In the upcoming lab, you'll define functions that implement these techniques and then use them to conduct statistical simulations and tests.
-
-
-```python
-
-```
