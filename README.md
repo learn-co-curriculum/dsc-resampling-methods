@@ -10,13 +10,12 @@ Resampling techniques are modern statistical techniques that involve taking repe
 You will be able to:
 
 - Identify when resampling is used 
-- Describe the process of jackknifing 
-- Describe the process of bootsrapping 
+- Describe the process of bootstrapping 
 - Describe permutation testing 
 
 
 ## Jackknife and Bootstrapping
-Let's start by defining the sampling methodology for these techniques. The bootstrap method works by taking random samples with replacement from the original sample. In contrast, the jackknife, the older of the two methods, works by taking samples by removing one, or more, observations at a time. Each one of these (n-1) sized sub-samples is aggregated to create the new jackknife sample. The purpose of these resampling methods is to be able to increase the size of our samples without having to actually go out and obtain more samples. Resampling methods attempt to estimate the variability of point estimators derived from the original samples.
+Let's start by defining the sampling methodology for these techniques. The bootstrap method works by taking random samples with replacement from the original sample of size n. In contrast, the jackknife, the older of the two methods, works by taking samples by removing one, or more, observations at a time. Each one of these (n-1) sized sub-samples is aggregated to create the new jackknife sample. The purpose of these resampling methods is to be able to increase the size of our samples without having to actually go out and obtain more samples. Resampling methods attempt to estimate the variability of point estimators derived from the original samples.
 
 The motivating principle behind both is that by analyzing the variance of parameter estimates from these synthetic samples, we can also gauge the variance of our point estimate for the population itself. For example, we might take an original sample from our population and then use the jackknife or bootstrapping method to generate additional synthetic samples. By calculating the point estimate of interest for these synthetic samples, we can better gauge the confidence interval and variability of our original point estimator.
 
