@@ -1,4 +1,3 @@
-
 # Resampling Methods
 
 ## Introduction
@@ -30,7 +29,7 @@ For example, let's say we had two samples, one with 37 observations and the othe
 ## Additional Resources
 
 * http://hydrodictyon.eeb.uconn.edu/eebedia/images/9/9d/FelsensteinChap20.pdf
-* https://www.scss.tcd.ie/Rozenn.Dahyot/453Bootstrap/05_Permutation.pdf
+* https://roznn.github.io/Bootstrap/RzDBootstrap.pdf
 
 ## Summary
 
