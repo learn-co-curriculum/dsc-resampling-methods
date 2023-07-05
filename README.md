@@ -29,7 +29,6 @@ For example, let's say we had two samples, one with 37 observations and the othe
 ## Additional Resources
 
 * http://hydrodictyon.eeb.uconn.edu/eebedia/images/9/9d/FelsensteinChap20.pdf
-* https://roznn.github.io/Bootstrap/RzDBootstrap.pdf
 
 ## Summary
 
