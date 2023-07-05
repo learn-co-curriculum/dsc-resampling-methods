@@ -26,7 +26,7 @@ For example, let's say we had two samples, one with 37 observations and the othe
 
 > **Note**: While it's called a permutation test, calculating all of the possible combinations of the observations into two groups is a more pragmatic approach. After all, you are comparing the sample means of the groups and as such the order of group members is irrelevant. When you implement permutation tests in the upcoming lab, you'll use combinations to make the problem computationally feasible. Even so, as you will see, the size of possible variations can quickly explode leading to other estimations of the permutation test, which you'll investigate towards the end of the section. 
 
-## Additional Resources
+## Additional Resource
 
 * http://hydrodictyon.eeb.uconn.edu/eebedia/images/9/9d/FelsensteinChap20.pdf
 
